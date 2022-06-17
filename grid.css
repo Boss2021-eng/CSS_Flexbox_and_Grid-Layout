@@ -10,6 +10,14 @@ body{
     height: 100vh;
 
 }
+
+.link{
+    text-decoration: none;
+    font-size: 50px;
+    color: red;
+    padding: 25px;
+    background-color: yellow;
+}
 main{
     display:grid;
     grid-template-areas:
