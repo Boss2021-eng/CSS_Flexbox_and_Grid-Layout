@@ -8,15 +8,15 @@ body{
     background-color: white;
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.link{
-    text-decoration: none;
-    color: red;
-    padding: 25px;
-    background-color: yellow;
+header nav{
+    background-color: white;
+    padding:  25px 70px;
+    display: flex;
+    gap: 100px;
+}
+header nav a{
+    font-size: 30px;
 }
 .box-container{
     width: 100%;
@@ -29,7 +29,8 @@ body{
 }
 
 .box{
-    width: 375px;
+    width: 300px;
+    max-width: 375px;
     padding: 15px;
     min-height: 430px;
 }

@@ -1,24 +1,30 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
-body{
+main{
     background-color: black;
-    display: flex;
     place-items: center;
     height: 100vh;
-
+    
 }
 
-.link{
-    text-decoration: none;
-    font-size: 50px;
-    color: red;
-    padding: 25px;
-    background-color: yellow;
+
+
+header nav{
+    background-color: black;
+    padding:  25px 70px;
+    display: flex;
+    gap: 100px;
+    
 }
-main{
+header nav a{
+    font-size: 30px;
+}
+
+.box-container{
     display:grid;
     grid-template-areas:
     'a a a b'
@@ -28,17 +34,15 @@ main{
 
     gap: 10px;
     width: 90%;
-    height: 90%;
+    height: 80%;
     margin: auto;
-    
 }
 
-main div{
+.box container div{
     padding:2em;
     text-align: center;
 
 }
-
 .A{
   background-color: orangered; 
   grid-area: a; 
